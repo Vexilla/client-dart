@@ -4,7 +4,8 @@ InstallInstructions = '''
 Add the client pubspec.yaml.
 
 ```yaml
-spec.add_runtime_dependency 'vexilla_client', '~> 0.0.1'
+dependencies:
+  vexilla_client: ^0.0.1
 ```
 '''
 CustomInstanceHash = "customInstanceHash"
