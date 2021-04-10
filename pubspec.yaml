@@ -1,10 +1,10 @@
 name: vexilla_client
 description: A Dart client for the Vexilla Feature Flag System.
-version: 0.0.4
+version: 0.1.0
 homepage: https://vexilla.github.io
 
 environment:
-  sdk: '>=2.10.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   http: '>=0.12.0'
