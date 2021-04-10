@@ -13,7 +13,7 @@ class VexillaClient {
   VexillaClient(this._environment, this._baseUrl, this._customInstanceHash);
 
   Future<Map> fetchFlags(String fileName) async {
-    var response = await http.get('${_baseUrl}/${fileName}');
+    var response = await http.get(Uri.parse('$_baseUrl/$fileName'));
     return jsonDecode(response.body);
   }
 
