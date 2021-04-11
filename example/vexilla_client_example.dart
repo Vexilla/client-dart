@@ -10,7 +10,7 @@ void main() async {
 
   client.setFlags(flags);
 
-  if (client.should('FEATURE_NAME')) {
+  if (client.should('FEATURE_NAME')!) {
     print('User should be able to use a feature.');
   }
   ;
