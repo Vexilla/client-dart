@@ -5,7 +5,14 @@ Add the client pubspec.yaml.
 
 ```yaml
 dependencies:
-  vexilla_client: ^0.0.1
+  vexilla_client: ^0.1.0
+```
+
+A version without null safety is also available:
+
+```yaml
+dependencies:
+  vexilla_client: ^0.0.2
 ```
 '''
 CustomInstanceHash = "customInstanceHash"
